@@ -1,0 +1,162 @@
+
+/* NAVBAR CSS */
+
+.navbar{
+    height: 10vh;
+}
+
+
+
+body {
+    font-family: 'Mulish',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+.navbar-brand{
+    color: #FFC222 !important;
+    font-weight: bold;
+}
+
+.bi{
+    background-color: #FFC222;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+/* END OF NAVBAR CSS */
+
+
+
+
+/* HERO SECTION CSS */
+.heroSection {
+    height: 80vh;
+    background-color: black;
+
+}
+.promo{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+.buy{
+    color: white;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.pizza{
+    color: #FFC222;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.get{
+    font-size: 23px;
+    font-weight: bolder;
+    color: #00A850;
+}
+.orderBtn{
+
+    background-color: #FFC222;
+    color: black;
+    padding: 7px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+}
+.orderBtn:hover{
+
+    background-color: #FFC222;
+    color: black;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.pizzaImg{
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .pizzaImg{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pizzaImg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .pizzaImg {
+        display: none;
+    }
+}
+
+
+/* END OF HERO SECTION CSS */
+
+/* FOOTER CSS */
+.logo{
+    color: #FFC222;
+    font-weight: 700;
+}
+
+.fb, .ln, .tw {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .footerVisa {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footerVisa {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .footerVisa {
+        display: none;
+    }
+}
+
+/* END OF FOOTER CSS */
+
+.separator{
+    height: 10vh;
+}
